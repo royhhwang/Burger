@@ -1,0 +1,26 @@
+body {
+    background:url(../img/memphis-colorful.png);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1 {
+    text-align: center;    
+    
+}
+
+.container {
+    margin: 0 auto;
+    width:900px;
+}
+
+.uneaten {
+    float:left;
+}
+
+.eaten {
+    float:right;
+}
+
+.addburg {
+    text-align:center;
+}

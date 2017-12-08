@@ -28,7 +28,7 @@ router.put("/api/burgers/:id", function (req, res) {
     console.log("condition", condition);
 
     burger.updateOne({
-        devoured: 1
+        devoured: true
         // CAN'T DEFINE req.body.devoured AND I DON'T KNOW WHY!!!
     }, condition, function (result) {
         if (result.changedRows == 0) {
